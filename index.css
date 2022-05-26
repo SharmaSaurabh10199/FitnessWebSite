@@ -1,0 +1,101 @@
+html { 
+    background: url(images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+          body{
+        
+              color: white;
+              align-content: center; 
+              
+          }
+          
+          .header{
+              display: flex;
+              justify-content: space-between;
+          }
+          /* .logo-wrapper{
+              border: 1px solid red;
+              border-radius: 10%;
+          } */
+          .logo-wrapper div{
+              font-size: 20px ;
+              line-height: 15px;
+              text-align: center;
+          }
+          .logo-wrapper img{
+              /* width: 30px; */
+              width: 115px ;
+              filter: invert(100%);
+          }
+          /* .navbar{
+              border: 2px solid red;
+          } */
+          li{
+              
+              display: inline-block;
+              margin-right: 10px;
+              
+          }
+          .nav-list li a{
+              font-size: 25px;
+              color: white;
+              padding: 15px 18px ;
+              text-decoration: none;
+          }
+          .nav-list li a:hover{
+              color: grey;
+              font-weight: bold;
+             
+              text-decoration: underline;
+          }
+          .sign-up a{
+              position: relative;
+              font-size: 20px;
+              top: 28px;
+              display: inline;
+              position: relative;
+              color: white;
+              padding: 15px 18px ;
+              text-decoration: none;
+              
+           
+          }
+          .sign-up a:hover{
+              color: grey;
+              font-weight: bold;
+              text-decoration: underline;
+  
+          }
+            
+         
+          .content{
+              text-align: center;
+              border: 3px solid white;
+              border-radius: 6%;
+              width: 393px;
+              height: 300px; 
+              margin: 200px 25px;
+              font-size: 40px;
+          }
+          .input input{
+              text-align: center;
+              display: block;
+              padding: 5px;
+              border: 2px solid black;
+              border-radius: 6px;
+              margin: 3px auto;
+          }
+          .form-button{
+              width: 45%;
+              border: 2px solid black;
+              border-radius: 6px;
+              padding: 6px;
+              background-color: white;
+          }
+          .footer{
+              text-align: center;
+          }
+ 

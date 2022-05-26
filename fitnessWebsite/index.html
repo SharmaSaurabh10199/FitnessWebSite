@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+
+    <title>Iron Paradise</title>
+    <style>
+        /* to position background image */
+        html { 
+    background: url(images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+          body{
+        
+              color: white;
+              align-content: center; 
+              
+          }
+          
+          .header{
+              display: flex;
+              justify-content: space-between;
+          }
+          /* .logo-wrapper{
+              border: 1px solid red;
+              border-radius: 10%;
+          } */
+          .logo-wrapper div{
+              font-size: 20px ;
+              line-height: 15px;
+              text-align: center;
+          }
+          .logo-wrapper img{
+              /* width: 30px; */
+              width: 115px ;
+              filter: invert(100%);
+          }
+          /* .navbar{
+              border: 2px solid red;
+          } */
+          li{
+              
+              display: inline-block;
+              margin-right: 10px;
+              
+          }
+          .nav-list li a{
+              font-size: 25px;
+              color: white;
+              padding: 15px 18px ;
+              text-decoration: none;
+          }
+          .nav-list li a:hover{
+              color: grey;
+              font-weight: bold;
+             
+              text-decoration: underline;
+          }
+          .sign-up a{
+              position: relative;
+              font-size: 20px;
+              top: 28px;
+              display: inline;
+              position: relative;
+              color: white;
+              padding: 15px 18px ;
+              text-decoration: none;
+              
+           
+          }
+          .sign-up a:hover{
+              color: grey;
+              font-weight: bold;
+              text-decoration: underline;
+  
+          }
+            
+         
+          .content{
+              text-align: center;
+              border: 3px solid white;
+              border-radius: 6%;
+              width: 393px;
+              height: 300px; 
+              margin: 200px 25px;
+              font-size: 40px;
+          }
+          .input input{
+              text-align: center;
+              display: block;
+              padding: 5px;
+              border: 2px solid black;
+              border-radius: 6px;
+              margin: 3px auto;
+          }
+          .form-button{
+              width: 45%;
+              border: 2px solid black;
+              border-radius: 6px;
+              padding: 6px;
+              background-color: white;
+          }
+          .footer{
+              text-align: center;
+          }
+ 
+    </style>
+</head>
+<body class="body">
+<header class="header">
+    <!-- logo -->
+    <div class="logo-wrapper">
+        <img  src="./images/newlogo.webp" alt="">
+        <div>Iron Pradise</div>
+    </div>
+    <!-- navbar -->
+    <div class="navbar">
+        <ul class="nav-list">
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#">Articles</a></li>
+            <li> <a href="#">Courses</a></li>
+            <li> <a href="#">About us</a></li>
+           
+        </ul>
+    </div>
+    <!-- sidebar -->
+    <div class="sign-up">
+        <a href="#">Sign Up</a>
+        <a href="#">Contact Us</a>
+    </div>
+
+</header>
+<!-- applicarion form -->
+<div class="content">
+    <h1 style="font-size: 30px ;">Start your fitness journey</h1>
+    <form action="action.php">
+        <div class="input"><input  type="text" placeholder="Enter name"></div>
+        <div class="input"><input  type="text" placeholder="Enter Mobile no"></div>
+        <div class="input"><input  type="text" placeholder="Enter course"></div>
+        <div class="input"><input  type="text" placeholder="Enter Age"></div>
+        <div class="input"><input  type="text" placeholder="Enter Gender"></div>
+       
+    <button class="form-button">Submit</button>
+    </form>
+</div>
+<div  class="footer">
+    © Iron paradise, all rights reserved
+</div>
+</body>
+</html>
